@@ -115,7 +115,7 @@ class HtmlTribunale
         <li id='liTribunali' onmouseover='liColorGray(this.id)' onmouseout='liColorBlack(this.id)'>
             <center>
                 <form action='index.php' method='post'>
-                    <button id='btnTribunali' name='comando' value='view_tribunali' style='border: none; color: white; height: auto; width: 100%;'>TRIBUNALI</button>
+                    <button id='btnTribunali' name='comando' value='view_tribunali' style='border: none; color: white; height: auto; width: 100%;'>TRIBUNALI (ELIMINARE)</button>
                 </form>
             </center>
         </li>";
@@ -266,7 +266,7 @@ class HtmlTribunale
         <li id='ctp' onmouseover='liColorGray(this.id)' onmouseout='liColorBlack(this.id)'>
             <center>
                 <form action='index.php' method='post'>
-                    <button name='comando' value='menu_ctp' style='border: none;  color: lightgrey; height: auto;'>CTP</button>
+                    <button name='comando' value='menu_ctp' style='border: none;  color: lightgrey; height: auto;'>CTP (ELIMINARE)</button>
                 </form>
             </center>
         </li>";
@@ -282,7 +282,7 @@ class HtmlTribunale
         <li id='procure' onmouseover='liColorGray(this.id)' onmouseout='liColorBlack(this.id)'>
             <center>
                 <form action='index.php' method='post'>
-                    <button name='comando' value='menu_procure' style='border: none;  color: lightgrey; height: auto;'>PROCURE</button>
+                    <button name='comando' value='menu_procure' style='border: none;  color: lightgrey; height: auto;'>CLIENTE</button>
                 </form>
             </center>
         </li>";

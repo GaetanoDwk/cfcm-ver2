@@ -34,12 +34,12 @@ class HtmlProcura
                      </form>";
                 }
                 echo"<br><br>
-                     <center><b>Lista Procure</b></center><br>
+                     <center><b>Lista Clienti</b></center><br>
                         <table class=\"u-full-width\">
                             <thead style='color: #1188FF'>
                                 <tr>
-                                    <th><img src='font/icon/procura.png' height='60'> </th>
-                                    <th>PROCURA</th>
+                                    <th><img src='font/icon/cliente.png' height='60'> </th>
+                                    <th>CLIENTE</th>
                                     <th>OPERAZIONI</th>
                                 </tr>
                             </thead>
@@ -90,12 +90,12 @@ class HtmlProcura
                         <button name='comando' value='menu_procure' style='position: absolute; left: 6%; border: none;' title='Torna al menu'><i class='fa fa-home fa-2x' aria-hidden='true'></i></button>
                      </form>";
                 echo"<br><br>
-                     <center><b>Lista Procure</b></center><br>
+                     <center><b>Lista Clienti</b></center><br>
                         <table class=\"u-full-width\">
                             <thead style='color: #1188FF'>
                                 <tr>
-                                    <th><img src='font/icon/procura.png' height='60'> </th>
-                                    <th>PROCURA</th>
+                                    <th><img src='font/icon/cliente.png' height='60'> </th>
+                                    <th>CLIENTE</th>
                                     <th>OPERAZIONI</th>
                                 </tr>
                             </thead>
@@ -158,10 +158,10 @@ class HtmlProcura
                 </form>";
         }
                 echo"<br><br>
-                <center><img src='font/icon/procura.png' height='40'></center><center><h6 class='docs-header'>INSERIMENTO NUOVA PROCURA</h6></center>
+                <center><img src='font/icon/cliente.png' height='40'></center><center><h6 class='docs-header'>INSERIMENTO NUOVO CLIENTE</h6></center>
                 <form action='index.php' method='post'>
                     <div class='form-group'>
-                        <center><input type='text' class='form-control' id='cli_nome' name='cli_nome' style='width:70%;' value='Procura della Repubblica Tribunale di ' required><br>
+                        <center><input type='text' class='form-control' id='cli_nome' name='cli_nome' style='width:70%;' placeholder='Cliente / Organizzazione' required><br>
                         <input type='text' class='form-control' id='cli_citta' name='cli_citta' style='width:70%;' placeholder='Citta' required><br></center>
                     </div>
                     <center><button type='submit' name='comando' value='insert_procura' style='height: auto; color: black;'>Salva</button></center>
@@ -199,7 +199,7 @@ class HtmlProcura
             </form>";
         }
             echo"<br><br>
-            <center><img src='font/icon/procura.png' height='40'></center><center><h6 class='docs-header'>MODIFICA PROCURA</h6></center>
+            <center><img src='font/icon/cliente.png' height='40'></center><center><h6 class='docs-header'>MODIFICA PROCURA</h6></center>
             <form action='index.php' method='post'>
                 <div class='form-group'>
                     <center>
@@ -377,7 +377,7 @@ class HtmlProcura
         <li id='liProcure' onmouseover='liColorGray(this.id)' onmouseout='liColorBlack(this.id)'>
             <center>
                 <form action='index.php' method='post'>
-                    <button id='btnProcure' name='comando' value='view_procure' style='border: none; color: white; height: auto; width: 100%;'>PROCURE</button>
+                    <button id='btnProcure' name='comando' value='view_procure' style='border: none; color: white; height: auto; width: 100%;'>CLIENTE</button>
                 </form>
             </center>
         </li>";
@@ -500,7 +500,7 @@ class HtmlProcura
         <li id='ctp' onmouseover='liColorGray(this.id)' onmouseout='liColorBlack(this.id)'>
             <center>
                 <form action='index.php' method='post'>
-                    <button name='comando' value='menu_ctp' style='border: none;  color: lightgrey; height: auto;'>CTP</button>
+                    <button name='comando' value='menu_ctp' style='border: none;  color: lightgrey; height: auto;'>CTP (ELIMINARE)</button>
                 </form>
             </center>
         </li>";
@@ -515,7 +515,7 @@ class HtmlProcura
         <li id='tribunali' onmouseover='liColorGray(this.id)' onmouseout='liColorBlack(this.id)'>
             <center>
                 <form action='index.php' method='post'>
-                    <button name='comando' value='menu_tribunali' style='border: none;  color: lightgrey; height: auto;'>TRIBUNALI</button>
+                    <button name='comando' value='menu_tribunali' style='border: none;  color: lightgrey; height: auto;'>TRIBUNALI (ELIMINARE)</button>
                 </form>
             </center>
         </li>";

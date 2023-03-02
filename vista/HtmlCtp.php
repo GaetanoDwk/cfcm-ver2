@@ -123,7 +123,7 @@ class HtmlCtp
         <li id='liCtp' onmouseover='liColorGray(this.id)' onmouseout='liColorBlack(this.id)'>
             <center>
                 <form action='index.php' method='post'>
-                    <button id='btnCtp' name='comando' value='return_to_ctp' style='border: none; color: white; height: auto; width: 100%;'>CTP</button>
+                    <button id='btnCtp' name='comando' value='return_to_ctp' style='border: none; color: white; height: auto; width: 100%;'>CTP (ELIMINARE)</button>
                 </form>
             </center>
         </li>";
@@ -231,7 +231,7 @@ class HtmlCtp
         <li id='ctp' onmouseover='liColorGray(this.id)' onmouseout='liColorBlack(this.id)'>
             <center>
                 <form action='index.php' method='post'>
-                    <button name='comando' value='ctp' style='border: none;  color: lightgrey; height: auto;'>Ctp</button>
+                    <button name='comando' value='ctp' style='border: none;  color: lightgrey; height: auto;'>Ctp (ELIMINARE)</button>
                 </form>
             </center>
         </li>";
@@ -243,7 +243,7 @@ class HtmlCtp
         <li id='procure' onmouseover='liColorGray(this.id)' onmouseout='liColorBlack(this.id)'>
             <center>
                 <form action='index.php' method='post'>
-                    <button name='comando' value='menu_procure' style='border: none;  color: lightgrey; height: auto;'>PROCURE</button>
+                    <button name='comando' value='menu_procure' style='border: none;  color: lightgrey; height: auto;'>CLIENTE</button>
                 </form>
             </center>
         </li>";
@@ -255,7 +255,7 @@ class HtmlCtp
         <li id='tribunali' onmouseover='liColorGray(this.id)' onmouseout='liColorBlack(this.id)'>
             <center>
                 <form action='index.php' method='post'>
-                    <button name='comando' value='menu_tribunali' style='border: none;  color: lightgrey; height: auto;'>TRIBUNALI</button>
+                    <button name='comando' value='menu_tribunali' style='border: none;  color: lightgrey; height: auto;'>TRIBUNALI (ELIMINARE)</button>
                 </form>
             </center>
         </li>";
@@ -332,7 +332,7 @@ class HtmlCtp
                             <thead style='color: #1188FF'>
                                 <tr>
                                     <th><img src='font/icon/ctp.png' height='60'> </th>
-                                    <th>CTP</th>
+                                    <th>CTP (ELIMINARE)</th>
                                     <th>OPERAZIONI</th>
                                 </tr>
                             </thead>

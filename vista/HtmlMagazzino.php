@@ -23,7 +23,7 @@ class HtmlMagazzino
                     <thead>
                     <tr>
                         <th style='padding: 10px;'><center><img src='./font/icon/operazioni.png' width='35px' title='Operazioni'></center></th>
-                        <th style='padding: 10px;'><center><img src='./font/icon/procura.png' width='35px' title='Procura'></center></th>
+                        <th style='padding: 10px;'><center><img src='./font/icon/cliente.png' width='35px' title='Cliente'></center></th>
                         <th style='padding: 10px;'><center><img src='./font/icon/pm.png' width='35px' title='Pm'></center></th>
                         <th style='padding: 10px;'><center><img src='./font/icon/dossier.png' width='35px' title='Dossier'></center></th>
                         <th style='padding: 10px;'><center><img src='./font/icon/plico.png' width='35px' title='Plichi'></center></th>
@@ -92,7 +92,7 @@ class HtmlMagazzino
                 <table border='2' style='border-collapse: separate; border-color: black;'>
                     <thead>
                     <tr>
-                        <th style='padding: 10px;'><center><img src='./font/icon/procura.png' width='35px' title='Procura'></center></th>
+                        <th style='padding: 10px;'><center><img src='./font/icon/cliente.png' width='35px' title='Cliente'></center></th>
                         <th style='padding: 10px;'><center><img src='./font/icon/pm.png' width='35px' title='Pm'></center></th>
                         <th style='padding: 10px;'><center><img src='./font/icon/dossier.png' width='35px' title='Dossier'></center></th>
                         <th style='padding: 10px;'><center><img src='./font/icon/plico.png' width='35px' title='Plico'></center></th>
@@ -143,7 +143,7 @@ class HtmlMagazzino
                     <thead>
                     <tr>
                         <th style='padding: 10px;'><img src='./font/icon/operazioni.png' width='35px' title='Operazioni'></th>
-                        <th style='padding: 10px;'><img src='./font/icon/procura.png' width='35px' title='Procura'></th>
+                        <th style='padding: 10px;'><img src='./font/icon/cliente.png' width='35px' title='Cliente'></th>
                         <th style='padding: 10px;'><img src='./font/icon/pm.png' width='35px' title='Pm'></th>
                         <th style='padding: 10px;'><img src='./font/icon/dossier.png' width='35px' title='Dossier'></th>
                         <th style='padding: 10px;'><img src='./font/icon/plico.png' width='35px' title='Plico'></th>

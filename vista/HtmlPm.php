@@ -123,7 +123,7 @@ class HtmlPm {
                         <table class=\"u-full-width\">
                             <thead style='color: #1188FF'>
                                 <tr>
-                                    <th><img src='font/icon/procura.png' height='60'> </th>
+                                    <th><img src='font/icon/cliente.png' height='60'> </th>
                                     <th>PM</th>
                                     <th>OPERAZIONI</th>
                                 </tr>

@@ -40,7 +40,7 @@ class HtmlLavorazione
                         <th style='padding: 10px;'><img src='./font/icon/operazioni.png' width='27px' title='Operazioni'></th>
                         <th style='padding: 10px;'><img src='./font/icon/dossier.png' width='27px' title='Dossier'></th>
                         <th style='padding: 10px;'><img src='./font/icon/pm.png' width='27px' title='Pm'></th>
-                        <th style='padding: 10px;'><img src='./font/icon/procura.png' width='27px' title='Procura'></th>
+                        <th style='padding: 10px;'><img src='./font/icon/cliente.png' width='27px' title='Cliente'></th>
                         <th style='padding: 10px;'>Data Inizio</th>
                         <th style='padding: 10px;'>GG</th>
                         <th style='padding: 10px;'>Data Fine</th>
@@ -156,7 +156,7 @@ class HtmlLavorazione
                     <tr>
                         <th style='padding: 10px;'><img src='./font/icon/dossier.png' width='27px' title='Dossier'></th>
                         <th style='padding: 10px;'><img src='./font/icon/pm.png' width='27px' title='Pm'></th>
-                        <th style='padding: 10px;'><img src='./font/icon/procura.png' width='27px' title='Procura'></th>
+                        <th style='padding: 10px;'><img src='./font/icon/cliente.png' width='27px' title='Cliente'></th>
                         <th style='padding: 10px;'>Data Inizio</th>
                         <th style='padding: 10px;'>GG</th>
                         <th style='padding: 10px;'>Data Fine</th>
@@ -234,7 +234,7 @@ class HtmlLavorazione
                         <th style='padding: 10px;'><img src='./font/icon/operazioni.png' width='27px' title='Operazioni'></th>
                         <th style='padding: 10px;'><img src='./font/icon/dossier.png' width='27px' title='Dossier'></th>
                         <th style='padding: 10px;'><img src='./font/icon/pm.png' width='27px' title='Pm'></th>
-                        <th style='padding: 10px;'><img src='./font/icon/procura.png' width='27px' title='Procura'></th>
+                        <th style='padding: 10px;'><img src='./font/icon/cliente.png' width='27px' title='Cliente'></th>
                         <th style='padding: 10px;'>Data Inizio</th>
                         <th style='padding: 10px;'>GG</th>
                         <th style='padding: 10px;'>Data Fine</th>
